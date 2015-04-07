@@ -1,5 +1,7 @@
 <?php
 
-function main($muchCoolerArguments = null) {
-  echo 'A different main function';
+function main($arguments = array()) {
+  echo 'Tim\'s Function';
+  
+  exit();
 }
