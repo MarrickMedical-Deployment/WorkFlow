@@ -5,3 +5,7 @@ function main($arguments = array()) {
   
   exit();
 }
+
+function thatDoesntWork() {
+	eco 'I'm so broken';
+}
